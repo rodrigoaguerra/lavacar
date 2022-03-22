@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sistema Lava Car" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sistema Lava Car" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Sistema Lava Car" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mms-bitfields" />
+			<Add option="-Wall" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/include" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/include/gtk-2.0" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/include/cairo" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/include/gdk" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/include/glib-2.0" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/lib/glib-2.0/include" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/include/pango-1.0" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/lib/gtk-2.0/include" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/include/atk-1.0" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/include/gdk-pixbuf-2.0" />
+		</Compiler>
+		<Linker>
+			<Add library="gtk-win32-2.0" />
+			<Add library="gobject-2.0" />
+			<Add library="glib-2.0" />
+			<Add directory="C:/Libary/gtk+-bundle_2.24.10-20120208_win32/lib" />
+		</Linker>
+		<Unit filename="arquivos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="header.h" />
+		<Unit filename="list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mensagens.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="relatorios.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<wxsmith version="1">
+				<resources>
+					<wxPanel wxs="wxsmith/NewPanel.wxs" src="NewPanel.cpp" hdr="NewPanel.h" fwddecl="0" i18n="1" name="NewPanel" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

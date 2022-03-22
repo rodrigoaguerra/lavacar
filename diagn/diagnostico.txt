@@ -1,0 +1,9 @@
+	Diagnóstico do Veículo 
+Modelo:  onix 
+Placa: asd-2210 
+Proprietario:  Leandro Alberto Guerra 
+O valor total foi:  105,00 
+O extintor vence em: 12/09/2015 
+Km para a próxima troca de oleo: 1900 
+recomenda-se fazer um encerramento no veiculo
+Observações:  Legal 
